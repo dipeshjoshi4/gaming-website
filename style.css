@@ -1,0 +1,1351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+nav{
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+  
+.logo-navlist{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding-right: 50px;
+ }
+
+.navbar-menu {
+    display: none;
+}
+
+.nav-btns{
+     padding-left: 360px;   
+ }
+ 
+.list-item {
+    margin: 0 10px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight:lighter;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+}
+
+.list-item:hover {
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    background-color: #f4694c;
+}
+  
+.btn{
+    color: #fff;
+    font-size: 15px;
+    font-weight:lighter;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.navbtn1{
+    background-color: transparent;
+    padding: 10px 25px 10px 25px;
+}
+
+.navbtn1:hover {
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    background-color: #f4694c;
+}
+
+.navbtn2 {
+    padding: 10px 25px 10px 25px; 
+    background-image: -webkit-linear-gradient(30deg, #f4694c 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #f4694c 50%, transparent 50%);
+    background-size: 500px;
+    background-position: 0%;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+}
+
+.navbtn2:hover {
+background-position: 100%;
+color: #f4694c;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Assets/Photos/futuristic-bg.png);
+    background-size:cover;  
+    height: 80vh;
+    color: aliceblue;
+    position: relative;
+    background-position: 0 -10em;
+}
+
+.first-section{
+    display: flex;
+    color: aliceblue;
+    gap: 300px; 
+}
+
+.play-heading{
+    padding-left: 7em;
+    padding-top: 7.5em;
+    font-size: 1.5rem;
+}
+
+.play-para{
+    color: #a7a5a6;
+    padding-left: 9.5em;
+    padding-top: 1em;
+    width: 40em;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.mainbtns{
+    padding-left: 10.5em;
+    padding-top: 2em;
+}
+
+.mainbtn2{
+    background-color: transparent;
+    padding: 15px 30px 15px 30px;
+    border: 1px solid white;
+}
+
+.mainbtn2:hover {
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    background-color: #f4694c;
+}
+
+.mainbtn1 {
+    padding: 15px 30px 15px 30px; 
+    background-image: -webkit-linear-gradient(30deg, #f4694c 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #f4694c 50%, transparent 50%);
+    background-size: 500px;
+    background-position: 0%;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    margin-right: 1em;
+}
+
+.mainbtn1:hover {
+background-position: 100%;
+color: #f4694c;
+}
+
+.get-started{
+    padding-left: 10em;
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.right-section{
+    padding-left: 1.5em;
+}
+
+.king p{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.dash{
+    translate: -53px 13px;
+}
+
+.right-arrow{
+    translate: 225px -12px;
+}
+
+.play-svg{
+    padding-top: 20em;
+    padding-bottom: 5em;
+    padding-left: 3em;
+}
+
+.play-svg img{
+    height: 60px;
+}
+
+.popular-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    font-family: 'Poppins';
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.card{
+    height: 300px;
+    width: 100%;
+}
+
+.card{   
+    margin-bottom: 100px;
+    width: 305px;
+    height: 345px;  
+    background-size: cover;
+}
+
+.blur-part{
+    background: rgba(216, 211, 211, 0.201);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    top: 242.5px;
+}
+
+.card-one{
+    background-image: url(/Assets/Photos/image\ 2.png);
+    background-position: 80% 75%;;
+}
+
+.card-two{
+    background-image: url(/Assets/Photos/image\ 4.png);
+    background-position: center;
+}
+
+.blur-two{
+    background: rgba(55, 54, 54, 0.116);
+    backdrop-filter: blur(0.5rem);
+}
+
+.card-three{
+    background-image: url(/Assets/Photos/image\ 3.png);
+    background-position: center;
+}
+
+.card-four{
+    background-image: url(/Assets/Photos/Rectangle\ 56.png);
+    background-position: center;
+}
+
+.download{
+    position: relative;
+    left: 180px;
+    bottom: 35px;
+    padding: 10px 20px 10px 20px;
+    background-color: #f4694c;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.download:hover{
+    text-shadow: 0px 0px 36px rgba(255, 255, 255, 1);
+    background-color: #f73914;
+}
+
+.about-game{
+    position: relative;
+    color: white;
+    top: 10px;
+    left: 10px;
+}
+
+.game-title{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.game-type{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #bebfbf;
+}
+
+.garela{
+    color: #dedede;
+}
+
+.blur-cards{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.war-rush{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 5em;
+}
+
+.rush-image{
+    width: 650px;
+    height: 500px;   
+    background-image: url(/Assets/Photos/Rectangle\ 57.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.rush-content{
+    width: 40%;
+}
+
+.rush-heading{
+    font-family: 'Poppins';
+    font-size: 2.3rem;
+    line-height: 1.2em;
+}
+
+.rush-para{
+    color: #949595;
+    font-family: 'Poppins';
+    padding-top: 1em;
+}
+
+.rush-buttons{
+    padding-top: 1em;
+}
+
+.explore-btn {
+    padding: 15px 30px 15px 30px; 
+    background-color: #f4694c;
+    color: white;
+    margin-right: 1em;
+}
+
+.explore-btn:hover {
+    text-shadow: 0px 0px 36px rgba(255, 255, 255, 1);
+    background-color: #f73914;
+}
+
+.learn-btn {
+    padding: 15px 30px 15px 30px; 
+    border: 1px solid #f4694c;
+    color: #f4694c;
+    background-color: white;
+    cursor: pointer;
+}
+
+.learn-btn:hover {
+    background-color: #f73914;
+    color: white;
+    text-shadow: 0px 0px 36px rgba(255, 255, 255, 1);
+}
+
+.recommend-heading{
+    font-family: 'Poppins';
+    font-size: 2.3rem;
+    line-height: 1.2em;
+}
+
+.left-arrow{
+    background-color: #fde1db;
+    border: none;
+    padding: 15px 10px 15px 10px;
+    cursor: pointer;
+}
+
+.left-arrow:hover{
+    background-color: #f7bfb3;
+}
+
+.next-arrow{
+    border: none;
+    cursor: pointer;
+    padding: 15px 10px 15px 10px;
+    background-color: #f4694c;
+    margin-left: 0.5em;
+}
+
+.next-arrow:hover{
+    background-color: #f73914;
+}
+
+.heading-arrows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 86%;
+}
+
+.weekly-download{
+    margin-top: 1em;
+    padding: 10px 25px 10px 25px;
+    background-color: #f4694c;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.weekly-download:hover{
+    text-shadow: 0px 0px 36px rgba(255, 255, 255, 1);
+    background-color: #f73914;
+}
+
+.recommend-collection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin-top:6%;
+    row-gap: 70px;
+    margin-left: 10%;
+}
+
+.recommend-card{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    height: 100%;
+}
+
+.game-image{
+    height: 90%;
+    width: 100%;
+}
+
+.game-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.gameabout{
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.gameabout h3{
+    padding-top: 1em;
+    font-size: 1.5rem;
+}
+
+.gameabout span{
+    padding-top: 2em;
+    font-size: 0.9em;
+    color: #f4694c;
+}
+
+.gameabout p{
+    padding-top: 1em;
+    font-size: 0.9em;
+    color: #949595;
+    line-height: 1.5em;
+}
+.developer-details {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.most-played{
+    background-color: black;
+    background-image: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 5em;
+    overflow: hidden;
+    background-position: 90% 41%;
+}
+
+.most-played-heading{   
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5em;
+    line-height: 2em;
+    padding-bottom: 1.5em;
+}
+
+.most-played-images{
+    height: 70vh;
+    margin: auto;
+    width: 70%;
+    display: flex;
+}
+
+.most-played-left{
+    width: 75%;
+}
+
+.most-played-left img{
+    width: 100%;
+}
+
+.right-image-one{
+    width: 40%;
+    padding-left: 3em;
+}
+.right-image-two{
+    width: 40%;
+    padding-left: 4em;
+}
+
+.most-played-right{    
+    align-self: flex-end;
+}
+
+.right-para{
+    color: #838487;
+    width: 91%;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    font-size: 1.2rem;
+}
+
+.unforgettable{
+    height: 500px;
+    background-image: linear-gradient(180deg,
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.65)), url(/Assets/Photos/Rectangle\ 606.png);
+    background-position: center;
+    background-size: cover;
+
+} 
+
+.unforgettable-content{
+    margin: auto;
+    text-align: center;
+    width: 26em;
+}
+
+.unforgettable-content h2{
+    color: white;
+    font-family: 'Poppins';
+    padding-top: 3em;
+    font-size: 2.3rem;
+    padding-bottom: 0.5em;
+}
+
+.unforgettable-content p{
+    color: #8d8d8f;
+    width: 24em;
+    padding-left: 1em;
+    padding-bottom: 3em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+
+.footer-lists li{
+    font-family: 'Poppins';
+    color: #86878b;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight:lighter;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.footer-lists li:hover{
+    color: #dfdfdf;
+}
+
+.footer-listone p{
+    color: #86878b;
+    font-size: 1rem;
+    font-weight:lighter;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.footer-listone p:hover{
+    color: #dfdfdf;
+}
+
+.footer-lists h4{
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-bottom: 1.5em;
+    /* color: #86878b */
+}
+
+
+.footer-listone img{
+    margin-bottom: 1em;
+}
+
+.icons img{
+    cursor: pointer;
+    margin-right: 0.5em;
+}
+
+.footer-line{
+    border: 0;
+    height: 2px;
+    background: #202d39;
+    margin: auto;
+}
+
+.line{
+    padding-top: 1.5em;
+    padding-bottom: 4em;
+}
+
+  @media (max-width: 768px) {
+
+    .footer-lists{
+        justify-content: space-around;
+        gap: 0em;
+    }
+
+    .footer-lists h4{
+        font-size: 0.9rem;
+    }
+
+    .footer-lists li{
+        font-size: 0.8rem;
+    }
+       
+    .card-three{
+        margin-top: -30%;
+    }
+    .card-four{
+        margin-top: -30%;
+    }
+
+    nav{
+        padding-top: 1.5em;
+        justify-content: space-around;
+    }
+
+    .logo svg{
+        height: 30px;
+    }
+
+    .first-section{
+        display: flex;
+        gap: 0;
+    }
+
+    .play-heading{
+        padding-top: 7.5em;
+        font-size: 1rem;
+        margin-left: -17%;
+        line-height: 1.5;
+    }
+
+    .mainbtns{
+        display: flex;
+        padding-left: 2.5em;
+        padding-top: 2em;
+    }
+
+    .king p{
+        font-size: 1.2rem;
+        color: white;
+    }
+    
+    .play-para{
+        color: #a7a5a6;
+        padding-left: 2.5em;
+        padding-top: 1em;
+        width: 21em;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .play-svg{
+        padding-top: 14.2em;
+        padding-bottom: 5em;
+        padding-left: 3em;
+    }
+    
+    .play-svg img{
+        height: 60px;
+    }
+
+    .right-section{
+        padding-left: 0em;
+    }
+
+    .mainbtn1{
+        padding: 10px 10px 10px 10px;  
+    }
+
+    .mainbtn2{
+        padding: 10px 10px 10px 10px; 
+    }
+
+    nav {
+      height: auto;
+    }
+
+    .logo{
+        padding-right: 0px;
+     }
+
+    nav{
+        justify-content: space-around;
+    }
+     
+    .nav-btns{
+         padding-left: 0px;
+     }
+
+    .navbtn2{
+        padding: 5px 10px 5px 10px; 
+     }
+
+    .navbtn1{
+        padding: 5px 10px 5px 10px; 
+    }
+
+    .blur-part{
+        top: 198px;
+    }
+
+    .card{   
+        margin-bottom: 100px;
+        width: 260px;
+        height: 280px;  
+        background-size: cover;
+    }
+
+    .blur-cards{
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 140px;
+        height: 100vh;
+    }
+
+    .popular-heading{
+        width: 50%;
+    }
+
+    .rush-image{
+        width: 550px;
+        height: 400px;
+    }
+
+    .war-rush{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .rush-heading{
+        margin-top: 1.5em;
+    }
+
+    .rush-content{
+        width: 70%;
+        padding-left: 7em;
+        padding-top: 2em;
+    }
+    
+    .rush-image{
+        margin-left: 7em;
+    }
+
+    .download{
+        position: relative;
+        left: 125px;
+        bottom: 25px;
+        padding: 6px 10px 6px 10px;
+        background-color: #f4694c;
+        color: white;
+        border: none;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+    
+    .download:hover{
+        text-shadow: 0px 0px 36px rgba(255, 255, 255, 1);
+        background-color: #f73914;
+    }
+
+    .download{
+        position: relative;
+        left: 125px;
+        bottom: 25px;
+        padding: 6px 10px 6px 10px;
+        background-color: #f4694c;
+        color: white;
+        border: none;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+    
+    .download:hover{
+        text-shadow: 0px 0px 36px rgba(255, 255, 255, 1);
+        background-color: #f73914;
+    }
+    
+    .about-game{
+        position: relative;
+        color: white;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .game-title{
+        font-size: .85rem;
+        margin-bottom: 5px;
+    }
+    
+    .game-type{
+        font-size: 0.7rem;
+        margin-bottom: 5px;
+        color: #bebfbf;
+    }
+
+    .recommend-collection{
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        margin-left: 20%;
+        gap: 0;
+        padding-bottom: 1em;
+    }
+
+    .most-played{
+        overflow:visible;
+    }
+
+    .most-played-images{
+        flex-direction: column;
+        height: 170vh;
+    }
+
+    .most-played-left{
+        width: 100%;
+    }
+
+    .right-para{
+        padding-top: 1.5em;
+        padding-bottom: 2em;
+        padding-left: 0em;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .right-image-one{
+        width: 45%;
+        margin-right: 1em;
+    }
+    .right-image-two{
+        width: 45%;
+        padding-left: 0em;
+    }
+
+    .right-images{
+        padding-bottom: 4em;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .footer-lists{
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .get-in{
+        margin-right: 10%;
+    }
+
+    .footer-listone img{
+        width: 100px;
+    }
+
+    .icons img{
+        width: 25px;
+    }
+
+    header{
+        height: 500px;
+        background-position: center;       
+    }
+
+    nav{
+        padding-top: 1em;
+        justify-content: flex-end;
+    }
+
+    .navbar-menu{
+        display: block;
+        padding-right: 3.1em;
+        background-color: transparent;
+        border: none;
+    }
+
+    .logo-navlist{
+        flex-direction: column;
+        position: fixed;
+        inset: 0 63% 0 0%;
+        padding-top: 4.5em;
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1rem);
+        transform: translateX(-100%);
+        transition: 350ms ease-in-out;
+        z-index: -1000;
+        height: 500px;
+    }
+
+    .logo-navlist[data-visible="true"]{
+        transform: translateX(0%);
+    }
+
+    .list-item:hover{
+        text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        background-color: #f4694c;
+    }
+
+    .nav-btns{
+        padding-right: 1em;
+    }
+
+    .first-section{
+        flex-direction: column;
+    }
+
+    .right-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .play-heading{
+        padding-top: 7em;
+        font-size: 0.8rem;
+        margin-left: -11%;
+        line-height: 1.2;      
+    }
+
+    .mainbtns{
+        display: flex;
+        padding-left: 2.9em;
+        padding-top: 1.5em;
+    }
+
+    .king p{
+        font-size: 1rem;
+        color: white;
+    }
+
+    .king{
+        padding-left: 6.1em;
+    }
+
+    .dash{
+        translate: -53px 13px;
+    }
+    
+    .right-arrow{
+        translate: 225px -12px;
+    }
+    
+    .play-para{
+        color: #dbd7d9;
+        padding-left: 3.1em;
+        padding-top: 1em;
+        width: 21em;
+        font-size: 0.9rem;
+        line-height: 1.2;
+    }
+
+    .play-svg{
+        padding-top: 1em;
+        padding-bottom: 0em;
+        padding-left: 3em;
+    }
+    
+    .play-svg img{
+        height: 50px;
+    }
+
+    .blur-cards{
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+
+    .card-two{
+        margin-top: -50%;
+    }
+
+    .card-three{
+        margin-top: -48%;
+    }
+
+    .card-four{
+        margin-top: -48%;
+    }
+
+    .popular-heading{
+        width: 90%;
+    }
+
+    .war-rush{
+        flex-direction: column-reverse;
+    }
+
+    .rush-image{
+        margin-top: 0%;
+        margin-left: 0.7em;
+    }
+
+    .rush-content{
+        width: 90%;
+        margin-top: 135%;
+        padding-left: 3em;
+    }
+
+    .recommend-heading{
+        font-size: 1.3rem;
+    }
+       
+    .heading-arrows{
+        justify-content: center;
+        width: 100%;
+        margin-top: -10%;
+        gap: 2em;
+    }
+
+    .recommend-collection{
+        grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+        gap: 2em;
+        margin-left: 2em;
+    }
+
+    .recommend-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .gameabout h3{
+        padding-top: 0em;
+        font-size: 1.5rem;
+    }
+
+    .rush-image{
+        width: 400px;
+        height: 300px;
+    }
+
+    .right-para{
+        font-size: 0.9rem;
+    }
+
+    .most-played-images{
+        width: 100%;
+        height: 130vh;
+    }
+
+    .right-images{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        gap: 0.5em;
+        padding-bottom: 0em;
+    }
+
+    .right-image-one{
+        width: 50%;
+        margin-right: 0em;
+        padding-left: 0em;
+    }
+    
+    .right-image-two{
+        width: 45%;
+        padding-left: 0em;
+    }
+
+    .unforgettable{
+        height: 300px;
+    }
+
+    .unforgettable-content h2{
+        font-size: 1.5rem;
+    }
+      
+  }
+
+  @media only screen and (max-width: 380px){
+
+    .footer-listone{
+        margin-left: 6%;
+    }
+
+    .footer-listone p{
+        width: 11em;
+    }
+
+    .get-in{
+        margin-right: 55%;
+        margin-top: -10%;
+    }
+
+    .articles{
+        margin-right: 3%;
+    }
+
+    .leagues{
+        margin-top: -10%;
+    }
+
+    nav{
+        padding-left: 2.7em;
+    }
+
+    .king p{
+        font-size: 1rem;
+        color: white;
+    }
+
+    .king{
+        padding-left: 6.1em;
+    }
+
+    .dash{
+        translate: -53px 13px;
+        width: 2em;
+    }
+    
+    .right-arrow{
+        translate: 125px -12px;
+    }
+
+    .card-two{
+        margin-top: -55%;
+    }
+
+    .card-three{
+        margin-top: -55%;
+    }
+
+    .card-four{
+        margin-top: -55%;
+    }
+
+    .popular-heading{
+        width: 90%;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 2rem
+    }
+
+    .rush-content{
+        margin-top: 150%;
+        width: 100%;
+        padding-left: 1em;
+    }
+
+    .rush-image{
+        width: 360px;
+        height: 230px;
+        background-image: url(/Assets/Photos/Rectangle\ 57.png);
+        background-position: center;
+        background-size: cover;
+        margin-left: 0.5em;
+    }
+
+    .recommend-heading{
+        font-size: 1.4rem;
+        width: 50%;
+    }
+       
+    .heading-arrows{
+        justify-content: center;
+        width: 100%;
+        margin-top: -10%;
+        gap: 1em;
+    }
+
+    .next-arrow{
+        margin-left: 0em;
+    }
+
+    .most-played-images{
+        height: 120vh;
+    }
+
+    .unforgettable-content{
+        width: 15em;
+        margin-right: 4em;
+    }
+
+    .unforgettable-content h2{
+        font-size: 1.2rem;
+    }
+      
+    .unforgettable-content p{
+        padding-left: 0;
+        width: 15rem;
+    }
+ 
+    .last-btn{
+        padding: 10px 15px 10px 15px; 
+    }
+  }
+
+  @media only screen and (max-width: 355px){
+
+    .navbar-menu{
+        padding-right: 2.5em;
+        padding-left: 2.2em;
+    }
+
+    .explore-btn{
+        padding: 15px 20px 15px 20px; 
+    }
+
+    .learn-btn{
+        padding: 15px 20px 15px 20px; 
+    }
+
+    nav{
+        padding-left: 0em;
+    }
+
+    .logo svg{
+        height: 30px;
+    }
+
+    .nav-btns{
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+        gap: 2em;     
+    }
+
+    .navbtn1{
+        padding: 4px 12.5px 4px 12.5px;
+        border-radius: 20px; 
+        margin-bottom: 5%;
+     }
+
+   .navbtn2{
+       padding: 4px 10px 4px 10px; 
+       border-radius: 20px;
+    }
+
+    .play-heading{
+        padding-top: 9em;
+        padding-left: 5em;
+    }
+
+    .play-para{
+        padding-left: 2em;
+    }
+
+    .mainbtns{
+        padding-left: 2em;
+    }
+
+    .popular-heading{
+        width: 100%;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .card-two{
+        margin-top: -65%;
+    }
+
+    .card-three{
+        margin-top: -65%;
+    }
+
+    .card-four{
+        margin-top: -65%;
+    }
+
+    .recommend-heading{
+        font-size: 1.2rem;
+        margin-right: 1em;
+    }
+
+    .heading-arrows{
+        margin-top: -15%;
+    }
+
+    .rush-image{
+        width: 300px;
+        height: 230px;
+        margin-left: 0.6em;
+    }
+
+    .rush-content{
+        margin-top: 175%;
+    }
+
+    .rush-heading{
+        font-size: 1.8rem;
+    }
+
+    .rush-para{
+        font-size: 0.8rem;
+    }
+
+    .most-played-images{
+        height: 105vh;
+    }
+
+    .unforgettable-content{
+        width: 15em;
+        margin-right: 2.5em;  
+    }
+
+    .last-btn{
+        padding: 5px 10px 5px 10px; 
+    }
+
+    .footer-listone{
+        margin-left: 6%;
+    }
+
+    .footer-listone p{
+        width: 11em;
+    }
+
+    .get-in{
+        margin-right: 3%;
+        margin-top: 0%;
+    }
+
+    .articles{
+        margin-right: 0%;
+        margin-left: 4%;
+    }
+
+    .leagues{
+        margin-top: 0%;
+    }
+
+  }
